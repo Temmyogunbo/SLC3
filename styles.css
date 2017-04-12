@@ -1,0 +1,207 @@
+*{
+  margin: 0;
+}
+
+#header{
+	background-color: rgb(59,89,152);
+	padding: 5px;
+  font-family:Lucida;
+	overflow: hidden;
+}
+
+#header p#logo1{
+	font-weight: bold;
+    margin-left: 10%;
+	font-size: 35px;
+	padding-top: 15px;
+	float: left;
+	color: white;
+}
+
+#login1{
+	width: 480px;
+	margin-top: 1%;
+	margin-right: 5%;
+	float: right;
+}
+
+#left1{
+	float: left;
+}
+
+#login1 input[type="text"]{
+	width: 110px;
+	padding:1px;
+}
+
+#login1 input[type="password"]{
+	width: 130px;
+	padding: 2px;
+}
+
+#emp1{
+	float: left;
+}
+
+#loginemail1{
+		border-radius: 0px;
+}
+
+
+#loginpass1{
+	border-radius: 0px;
+}
+
+
+#empass1{
+	float: right;
+	border-radius: none;
+	margin-top: -16%;
+	margin-right: -100%;
+}
+
+
+
+#logbut1{
+	float: right;
+	margin-right: 25%;
+	margin-top: 3.5%;
+}
+
+#logbut1 button{
+	border-radius: 2px;
+	width: 70px;
+	padding: 4px;
+	border:1px solid black;
+	font-size: 14px;
+	font-weight: bold;
+	background-color: rgba(66,103,178,9.9);
+	color: white;
+}
+
+#logbut1 button:hover{
+	background-color: rgb(59,89,152);
+}
+
+body{
+	font-family:Lucida;
+	background-color: #f2f2f2;
+}
+
+
+.image{
+  margin-left: 10%;
+  width: 38%;
+}
+
+.image p{
+  font-size: 21px;
+  color: #333;
+}
+
+
+
+.left{
+  float: left;
+}
+
+#container{
+  width: 100%;
+  overflow: hidden;
+}
+
+.image{
+  float: left;
+  margin-top: 4%;
+  width: 30%;
+}
+
+
+
+.form{
+  margin-top: 1%;
+  float: right;
+  width: 420px;
+  overflow: hidden;
+  margin-right: 10%;
+  padding: 15px;
+}
+
+.form p{
+  margin-bottom: 3%;
+}
+
+.form p:first-child{
+  font-size: 30px;
+  font-family: verdana;
+  margin-bottom: 2%;
+  font-weight: bold;
+}
+
+.form form{
+  overflow: hidden;
+}
+
+ div select{
+   margin-left: -5%;
+   padding: 4px;}
+
+ div select:first-child{
+   margin-left: 0;
+ }
+
+ form input{
+   padding: 10px;
+ 	 margin-bottom: 2%;
+ 	 border-radius: 5px;
+ 	 border: none;
+   font-size: 17px;
+   width: 350px;
+}
+
+.gender{
+  display: inline-block;
+  margin-bottom: 2%;
+  margin-left: -17%;
+}
+
+.gender label input{
+  margin-right: -11%;
+}
+
+ form input:nth-child(1){
+   width: 160px;
+}
+
+ form input:nth-child(2){
+   width: 160px;
+   margin-left: 8px;
+}
+
+.select{
+  float: left;
+}
+
+.birth {
+  float: left;
+	margin-left: -10px;
+	font-size: 13px;
+  width: 170px;
+}
+
+#tc{
+  width: 300px; 
+  font-size: 12px
+}
+.link{
+  text-decoration: none;
+}
+
+#submit{
+  color: white; 
+  font-weight: bold; 
+  font-size: 18px; 
+  background-color: green;
+  border-radius: 7px;
+  border: 1px solid green;
+  padding: 8px 12px 8px 12px;}
